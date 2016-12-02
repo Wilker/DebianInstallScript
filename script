@@ -17,7 +17,23 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo apt-get update
 sudo apt-get install spotify-client
 
+
 #instalar o git
 sudo apt-get install git-core
+
+
+#instalar o Chrome usando o repositório PPA
+#Adiciona a chave
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+#Adiciona o repositório do  Chrome aos repositórios do sistema
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+#update
+sudo apt-get update
+#instalando o chrome
+sudo apt-get install google-chrome-stable
+
+ 
+#instalar o wireshark
+sudo apt-get install wireshark
 
 
