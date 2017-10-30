@@ -36,4 +36,10 @@ sudo apt-get install google-chrome-stable
 #instalar o wireshark
 sudo apt-get install wireshark
 
+#install virtualbox
+sudo apt-get install virtualbox
+sudo apt-get install virtualbox-dkms 
+
+
+
 
