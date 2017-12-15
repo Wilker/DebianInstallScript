@@ -5,11 +5,16 @@ adduser wilker sudo
 exit
 
 #instalar linux-headers
-apt-get install linux-headers-$(uname -r)
+sudo apt-get install linux-headers-$(uname -r)
 
 #instalar build-essentials
-apt-get install build-essential
+sudo apt-get install build-essential
 
+#instalar mysql-server
+sudo apt-get install mysql-server
+
+#instalar mysql-workbench
+sudo apt-get install mysql-workbench
 
 #instalar o spotify
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
