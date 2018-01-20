@@ -10,6 +10,10 @@ sudo apt-get install linux-headers-$(uname -r)
 #instalar build-essentials
 sudo apt-get install build-essential
 
+#suporte ao firmware-realtek
+sudo apt-get install firmware-realtek
+
+
 #instalar mysql-server
 sudo apt-get install mysql-server
 
