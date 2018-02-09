@@ -45,4 +45,7 @@ sudo apt-get install google-chrome-stable
 #instalar o wireshark
 sudo apt-get install wireshark
 
+#Suporte aos dispositivos USB no Virtualbox
+sudo addgroup vboxusers
+sudo adduser $USER vboxusers
 
